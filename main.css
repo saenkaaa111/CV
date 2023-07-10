@@ -1,0 +1,142 @@
+.main-flexbox {
+    display: flex;
+    width: 800px;
+    height: 1000px;
+    justify-content:center;
+    align-items:center;   
+  }
+  .column{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow: column;
+    height: 1000px;    
+  }
+  .main-left-column{
+    width: 30%;    
+    background-color:rgb(37, 36, 36);
+    
+  }
+  .main-right-column{
+    width: 70%;    
+    background-color:ghostwhite;    
+  }
+  .text-alignment{
+    width: 60%;
+    height: 800px;
+    text-align:left;
+  }
+  .rigth-column{
+    width: 70%;
+    height: 1000px;
+  }
+  .left-alignment{
+    
+  }
+
+  .center-alignment{
+    text-align:center;
+  }
+
+  .headline{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-style: normal; 
+    font-weight: normal; 
+  }
+    .white-color{
+        color:white;
+    }
+    .black-color{
+        color:black;
+    }
+  .flex-main-info{
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-direction: column;
+    display: flex;
+    
+  }
+
+  .personal-info{
+    width: 80%;
+    height: 200px;
+  }
+
+  .education-info{
+    width: 80%;
+    height: 300px;
+    font-style: 14px; 
+    font-weight:lighter; 
+    line-height: 1.6;
+  }
+
+  .text-colunm{
+    
+    text-align:left;
+    font-size: 14px;
+  }
+  .line{
+    width: 50px;
+    height: 2px;
+    background-color:white;
+  }
+  .circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:black;
+  }
+  .black-color-line{
+    
+    background-color:black;
+  }
+  .white-color-line{
+    background-color:white;
+  }
+  .name{
+    font-size: 50px;
+  }
+
+  .grid-expirience{
+    display: grid;
+    gap: 20px;
+    justify-items:flex-start;
+    grid-template-columns: 30% 70%;
+
+  }
+  .skills{
+    grid-template-columns: 50% 50%;
+  }
+  .flex-gorizontal{
+    display:flex;
+    
+    
+  }
+  
+  .start-up{
+    justify-content: flex-start;
+  }
+  .start-down{
+    align-items: flex-end;
+  }
+  .end-up{
+    justify-content:flex-end
+  }
+.end-down{
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+.clear-black{
+    background-color:rgba(0, 0, 0, 0.185);
+}
+.clear-white{
+    background-color:rgba(255, 255, 255, 0.666);
+}
+.column-language{
+    flex-direction: column;
+}
+.foto{
+    border-radius: 50%;
+    width: 9em;
+    height: 9em;
+}
